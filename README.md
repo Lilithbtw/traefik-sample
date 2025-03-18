@@ -32,7 +32,9 @@ sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin dock
 ```bash
 git clone https://github.com/Lilithbtw/traefik-sample.git
 ```
-Using your prefered linux text editor just edit the the following line
+Using your prefered linux text editor just edit the the following lines
+
+- "--certificatesresolvers.myresolver.acme.email=your-email@gmail.com"
 - "traefik.http.routers.nginx.rule=Host(`mydomain.com`) || Host(`www.mydomain.com`)"
 ```bash
 nano docker-compose.yml
