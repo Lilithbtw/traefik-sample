@@ -34,7 +34,7 @@ git clone https://github.com/Lilithbtw/traefik-sample.git
 ```
 Using your prefered linux text editor just edit the the following lines
 
-- "--certificatesresolvers.myresolver.acme.email=your-email@gmail.com"
+- "--certificatesresolvers.myresolver.acme.email=your-email@example.com"
 - "traefik.http.routers.nginx.rule=Host(`mydomain.com`) || Host(`www.mydomain.com`)"
 ```bash
 nano docker-compose.yml
